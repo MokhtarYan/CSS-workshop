@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+
+* {
+    margin: 0 auto;
+    font-family: roboto;
+    
+
+}
+
+#menu li {
+    margin-top: 60px;
+    display: inline;  
+    font-size: x-large;
+    margin-right: 30px;
+    padding: 15px;
+}
+ 
+#menu :hover {
+    background-image: linear-gradient(red,blue) ;
+    
+}
+
+body {
+    background-image: linear-gradient(blue,red);
+}
+header {
+    padding-top: 20px;  
+    text-align: center; 
+}
+
+#menu a {
+    text-decoration: none;
+    color: yellow;
+    
+}
+
+.title {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: yellow;  
+    margin-left: 40px; 
+}
+
+.text {
+    margin-left: 60px;
+    color: whitesmoke;
+    margin-bottom: 10px;
+    font-size: medium;
+}
+
+#homediv img {
+    margin-left: 400px;
+    margin-top: 50px;
+    height: 400px;
+    width: auto;
+}
+
+input[type="range"] {
+   margin-left: 250px;
+}
+
+#resumediv h3 {
+    margin-left: 60px;
+    color: rgb(195, 205, 50);
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+#resumediv h5 {
+    margin-top: 20px;
+    margin-left: 80px;
+    color: whitesmoke;
+    font-size: medium;
+}
+
+iframe {
+    margin-right: 100px;
+    border-radius: 20%;
+}
+button {
+    color: blue;
+    background-color: yellow;
+}
+
+
+input[type="text"] {
+    margin-left: 80px;
+ }
+ a {
+    color: yellow;
+ }
